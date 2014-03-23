@@ -1,6 +1,9 @@
 # Systemd Socket Activation
 
 [![Build Status](https://travis-ci.org/herzi/systemd-socket.svg?branch=master)](https://travis-ci.org/herzi/systemd-socket)
+[![Dependency Status](https://david-dm.org/herzi/systemd-socket.svg?theme=shields.io)](https://david-dm.org/alanshaw/david-www)
+[![devDependency Status](https://david-dm.org/herzi/systemd-socket/dev-status.svg?theme=shields.io)](https://david-dm.org/alanshaw/david-www#info=devDependencies)
+[![Donate to help support development](http://img.shields.io/gittip/herzi.svg)](https://www.gittip.com/herzi/)
 
 ## Introduction
 
