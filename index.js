@@ -7,21 +7,21 @@ var nextIndex = 0;
 
 var systemd = module.exports = function (index) {
     if (arguments.length < 1) {
-		index = nextIndex++;
-	}
+        index = nextIndex++;
+    }
 
     if (!process.env.LISTEN_FDS) {
-		return null;
-	}
+        return null;
+    }
 
     var listenFDs = parseInt(process.env.LISTEN_FDS, 10);
     if (listenFDs < nextIndex) {
-		return null;
-	}
+        return null;
+    }
 
     return {
-		fd: firstSystemdFD + index
-	};
+        fd: firstSystemdFD + index
+    };
 };
 
 // vim:set sw=4 et:
