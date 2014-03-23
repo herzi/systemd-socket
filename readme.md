@@ -1,5 +1,7 @@
 # Systemd Socket Activation
 
+[![Build Status](https://travis-ci.org/herzi/systemd-socket.svg?branch=master)](https://travis-ci.org/herzi/systemd-socket)
+
 ## Introduction
 
 A minimalistic NodeJS module to provide access to systemd based socket activation.
